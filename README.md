@@ -1,30 +1,39 @@
-[![HitCount](http://hits.dwyl.com/ishandeveloper/Portfolio.svg)](http://hits.dwyl.com/ishandeveloper/Portfolio)
-## Portfolio [Progressive Web App]
-#### A clean, beautiful and fully responsive progressive web app based portfolio template for Developers! 
-##### Optimized For Github Pages
+# <a href="https://vinodjangid07.github.io/" target="_blank">My Portfolio</a>
+<p align="justify">This website displays my Projects, Web presence, Story, Work experience, and contact information.</p>
 
-<img src="https://github.com/ishandeveloper/Portfolio/blob/master/screenshots/1.png?raw=false">
+[![Repository Status](https://img.shields.io/badge/Repository%20Status-Maintained-dark%20green.svg)](https://github.com/vinodjangid07/vinodjangid07.github.io)
+[![Website Status](https://img.shields.io/badge/Website%20Status-Online-green)](https://vinodjangid07.github.io/)
+[![Author](https://img.shields.io/badge/Author-Vinod%20Jangid-purple.svg)](https://www.instagram.com/its_.me._vinod?igshid=YmMyMTA2MsY%3D)
+[![Latest Release](https://img.shields.io/badge/Latest%20Release-11%20Jan%202024-yellow.svg)](https://github.com/vinodjangid07/vinodjangid07.github.io)
+<a href="https://github.com/vinodjangid07/vinodjangid07.github.io/blob/master/LICENSE"><img alt="License" src="http://img.shields.io/:license-mit-blue.svg?style=flat-square?style=flat-square" /></a>
 
-<pre>P.S. This project is still in development phase.</pre>
-<pre><a href="https://ishandeveloper.com/Portfolio/">VIEW LIVE DEMO</a></pre>
+<img width="100%" alt="Portfolio Screenshot" src="https://github.com/vinodjangid07/vinodjangid07.github.io/assets/86096184/fd0d70b2-1505-4adf-8b0c-427df58607e3">
 
-### TECHNOLOGIES USED
-* HTML5
-* CSS
-* JAVASCRIPT
-* BOOTSTRAP
-* FONT AWESOME 5
 
-##### [Desktop]
-<img src="https://github.com/ishandeveloper/Portfolio/blob/master/screenshots/1.png?raw=false" width="45%">&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://github.com/ishandeveloper/Portfolio/blob/master/screenshots/3.png?raw=false" width="45%">
-##### [Mobile]
-<img src="https://github.com/ishandeveloper/Portfolio/blob/master/screenshots/1-mobile.png?raw=false" width="20%">&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://github.com/ishandeveloper/Portfolio/blob/master/screenshots/3-mobile.png?raw=false" width="20%">
+:star: Star me on GitHub — it helps!
 
-### Just a sidenote ✉
-I value keeping this site open source, but as you all know, plagiarism is bad. I spent a non-negligible amount of effort developing, designing, and trying to perfect this iteration of my website, and I am proud of it! All I ask is to not claim this effort as your own.
+# Sections 📚
 
-So, feel free to fork this repo. If you do, please just give me proper credit by linking back to my website.
+✔️ Mini intro\
+✔️ About me \
+✔️ Skills\
+✔️ Projects\
+✔️ Contact me
 
-##### Made with ❤ by <a href="https://github.com/ishandeveloper">ishandeveloper</a>
+## Installation & Deployment 📦
+- Clone the repository and modify the content of <b>index.html</b> according to your requirement.
+- ⚠️ Remove my Bitmoji <img src="https://github.com/vinodjangid07/vinodjangid07.github.io/assets/86096184/05e5b2d6-8b38-4cf9-a5a3-eb63e81aab1d" width="20px"> from the navbar/footer and use yours instead.⚠️
+- Add or remove images from `https://www.vinodjangid.me/src/` directory as per your requirement.
+- ⚠️<b>NOTE:</b> Make sure to remove `analyticsId` & `google search console Id` from `<head>` tag, and set yours, if you want to use your own Google Analytics & search console account.⚠️
 
-[![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://github.com/ishandeveloper)
+
+## License 📄
+This project is licensed under the MIT License - see the [LICENSE.md](./LICENSE) file for details.
+
+## Tools Used 🛠️
+* [<b>GitHub</b>](https://github.com/) - To host my static website (HTML, CSS, JS).
+* [<b>Animate on scroll library</b>](https://github.com/michalsnik/aos) - To animate my website while scrolling.
+* [<b>Animista</b>](https://animista.net/) - To use Interactive animations
+
+
+Please contact me at infovinodjangid@gmail.com if you have any feedback for the website. :star: Star it, if you like it!
