@@ -1,751 +1,263 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<!-- 
+  <head>
 
-██╗░░░██╗██╗███╗░░██╗░█████╗░██████╗░
-██║░░░██║██║████╗░██║██╔══██╗██╔══██╗
-╚██╗░██╔╝██║██╔██╗██║██║░░██║██║░░██║
-░╚████╔╝░██║██║╚████║██║░░██║██║░░██║
-░░╚██╔╝░░██║██║░╚███║╚█████╔╝██████╔╝
-░░░╚═╝░░░╚═╝╚═╝░░╚══╝░╚════╝░╚═════╝░
-░░░░░██╗░█████╗░███╗░░██╗░██████╗░██╗██████╗░
-░░░░░██║██╔══██╗████╗░██║██╔════╝░██║██╔══██╗
-░░░░░██║███████║██╔██╗██║██║░░██╗░██║██║░░██║
-██╗░░██║██╔══██║██║╚████║██║░░╚██╗██║██║░░██║
-╚█████╔╝██║░░██║██║░╚███║╚██████╔╝██║██████╔╝
-░╚════╝░╚═╝░░╚═╝╚═╝░░╚══╝░╚═════╝░╚═╝╚═════╝░
-What are you doing here?! you sneaky developer...
--->
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="AI Center Fellow, Microsoft Research India">
+    <meta name="author" content="Sebastin Santy">
+    <meta name="theme-color" content="#222222">
 
-<head>
-  <!-- don't forget to remove this >>>>(google tag manager) script, if you are using this page/code -->
-  <!-- don't forget to remove this >>>>(google tag manager) script, if you are using this page/code -->
-  <!-- don't forget to remove this >>>>(google tag manager) script, if you are using this page/code -->
-  <!-- don't forget to remove this >>>>(google tag manager) script, if you are using this page/code -->
-  <!-- Google tag (gtag.js) -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-YMWDE0VTD3"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag() {
-      dataLayer.push(arguments);
-    }
-    gtag("js", new Date());
+    <link rel="apple-touch-icon" sizes="180x180" href="images/nicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/nicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/nicons/favicon-16x16.png">
 
-    gtag("config", "G-YMWDE0VTD3");
-  </script>
-  <!-- don't forget to remove this >>(google site verification meta tag) tag, if you are using this page/code -->
-  <!-- don't forget to remove this >>(google site verification meta tag) tag, if you are using this page/code -->
-  <!-- don't forget to remove this >>(google site verification meta tag) tag, if you are using this page/code -->
-  <!-- don't forget to remove this >>(google site verification meta tag) tag, if you are using this page/code -->
-  <meta name="google-site-verification" content="zMNl24ruDnyqiliYwKNU_r09OkPCDKz0kMBtF9nqiCc" />
-  <!-- don't forget to remove this >>(google site verification meta tag) tag, if you are using this page/code -->
-  <!-- don't forget to remove this >>(google site verification meta tag) tag, if you are using this page/code -->
-  <!-- don't forget to remove this >>(google site verification meta tag) tag, if you are using this page/code -->
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/style-3.css">
+      
+    <title>Sebastin Santy</title>
+  </head>
+  <body>
+    <!-- <h1>Hello, world!</h1> -->
+    <div class="container pt-5 allstuffp">
+        <div class="row pt-5 allstuff">
+            <div class="col-md-4 pt-5">
+                <div class="fixed-posi">
+                <p class="name">Sebastin Santy</p>
+                <img src="images/profile-pixel.png" class="profilepic pt-3 pb-2">
+                <div class="pt-5 menur"><a class="menulink" target="_blank" href="assets/sebastin_cv.pdf">curriculum vitae</a></div>
+                <div class=""><a class="menulink" target="_blank" href="https://scholar.google.com/citations?user=HsyMg08AAAAJ">google scholar</a></div>
+                <div class=""><a class="menulink" target="_blank" href="mailto:hi@sebast.in">email address</a></div>
+                <div class=""><a class="menulink" target="_blank" href="https://github.com/sebastinsanty">github profile</a></div>
+                <div class=""><a class="menulink" target="_blank" href="https://www.linkedin.com/in/sebastinsanty/">linkedin</a></div>
+                <div class=""><a class="menulink" target="_blank" href="https://twitter.com/sebastinsanty">twitter</a></div>
+                
 
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="robots" content="index, follow" />
-  <meta name="theme-color" content="#000" />
-  <meta name="description"
-    content="Changhan Jun | Portfolio, Visit and know about me & my projects/designs. I value simple content structure, clean design patterns, and thoughtful interactions." />
-  <meta name="keywords"
-    content="Changhan Jun,Changhan Jun portfolio,Changhan Jun Portfolio,ChanghanJun,Changhan Jun site,Changhan Jun Site,Changhan Jun me,Changhan Jun web,Changhan Jun github,ChanghanJun site,vinodjangid uiverse,uiverse,vinod jangid uiverse,vinod jangid frontend developer,frontend developer,vinod jangid jaipur,vinod jaipur" />
-  <meta name="author" content="Changhan Jun" />
-  <meta property="og:image" content="https://www.vinodjangid.site/src/png/Preview-card-min.png" />
-  <meta property="og:title" content="Changhan Jun | Portfolio" />
-  <meta property="og:description"
-    content="Hi! My name is Vinod. I'm a web developer and digital visual artist. Visit and know about me & my projects/designs. I value simple content structure, clean design patterns, and thoughtful interactions." />
+                <!-- <div class="pt-5">usercontext</div> -->
+                <!-- <div class="">travel history</div> -->
+                <!-- <div class="">this template</div> -->
+                </div>
+            </div>
+            <div class="col-md-8 pt-5 about">
+                 I am a pre-doctoral <a class="in-text" href="https://www.microsoft.com/en-us/research/group/scai/"
+                     target="_blank">AI Center</a> Fellow at <a class="in-text"
+                     href="https://www.microsoft.com/en-us/research/lab/microsoft-research-india/"
+                     target="_blank">Microsoft Research India</a>, where I work with <a class="in-text"
+                     href="https://www.microsoft.com/en-us/research/people/kalikab/" target="_blank">Kalika Bali</a> and
+                 <a class="in-text" href="https://www.microsoft.com/en-us/research/people/monojitc/"
+                     target="_blank">Monojit Choudhury</a>. I am interested in working on problems that focus on
+                 democratizing language technologies. <br> <br>
 
-  <meta property="og:url" content="https://vinodjangid.site" />
-  <meta property="og:site_name" content="Vinod Jangid Portfolio" />
 
-  <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:site" content="@Vinod_Jangid07" />
-  <meta name="twitter:title" content="Vinod Jangid | Portfolio" />
-  <meta name="twitter:description"
-  content="Hi! My name is CJ. I'm a web developer and digital visual artist. Visit and know about me & my projects/designs. I value simple content structure, clean design patterns, and thoughtful interactions." />
-  <meta name="twitter:image" content="https://www.vinodjangid.site/src/png/Preview-card-min.png" />
-  <title>Vinod Jangid | Portfolio</title>
-  <link rel="icon" type="image/x-icon" href="src/png/main-favicon.png" />
-  <!-- aos cdn -->
-  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-  <!-- stylesheet -->
-  <link rel="stylesheet" href="style.css" />
-  <!-- google fonts-->
-  <link rel="stylesheet"
-    href="https://fonts.googleapis.com/css2?family=Passions+Conflict&family=Orbitron&family=Fira+Code&family=Six+Caps" />
+                 I have been fortunate to work with an amazing set of researchers in the past. I did my bachelor thesis
+                 at <a class="in-text" href="https://www.cmu.edu/" target="_blank">Carnegie Mellon University</a> where
+                 I was advised by <a class="in-text" href="http://www.cs.cmu.edu/~dst/" target="_blank">Dave
+                     Touretzky</a>. I also interned at <a class="in-text" href="https://www.ucl.ac.uk/"
+                     target="_blank">University College London</a> with <a class="in-text"
+                     href="https://emineyilmaz.cs.ucl.ac.uk" target="_blank">Emine Yilmaz</a> and <a class="in-text"
+                     href="http://rishabhmehrotra.com/" target="_blank">Rishabh Mehrotra</a>. Prior to my time in
+                 research, I spent two summers with <a class="in-text" href="https://summerofcode.withgoogle.com/"
+                     target="_blank">Google Summer of Code</a> working for <a class="in-text"
+                     href="https://julialang.org/" target="_blank">Julia Language</a> and <a class="in-text"
+                     href="https://www.mozilla.org/" target="_blank">Mozilla</a>. <br><br>
 
-<body class="body">
-  <audio loop="" id="audioPlayer" style="display: none">
-    <source src="src/mp3/preloader.mp3" type="audio/mp3" />
-  </audio>
-  <div id="preloader"></div>
-  <noscript>Allow Javascript</noscript>
+                 I graduated with a B.Tech (Hons.) in Electronics and Instrumentation from <a class="in-text"
+                     href="https://www.bits-pilani.ac.in/" target="_blank">BITS Pilani</a>, Goa, India in 2019. For more
+                 details, check my <a class="in-text" href="assets/sebastin_cv.pdf" target="_blank">CV</a> or hit me up
+                 on my <a class="in-text" href="mailto:hi@sebast.in">email</a>.
 
-  <header>
-    <div class="cursor-inner" id="cursor-inner"></div>
-    <div class="cursor-outer" id="cursor-outer"></div>
+                 <p class="header pt-5">Publications</p>
+                 <div class="py-2">
+                 <p class="paper my-2 pl-2">
+                     <span class="papertitle">The State and Fate of Linguistic Diversity and Inclusion in the NLP
+                         World</span><br>
+                     Pratik Joshi*, <span class="thisauthor">Sebastin Santy*</span>, Amar Budhiraja*, Kalika Bali, Monojit Choudhury
+                     <span class="noter"> (* = Equal Contribution)</span><br>
+                     <span class="conf"><a class="confshort" href="https://acl2020.org/">ACL'20</a> | Annual Conference of the Association for Computational
+                         Linguistics</span><br>
+                    
+                     <a class="tag" href="https://arxiv.org/pdf/2004.09095.pdf" target="_blank">pdf</a><span class="tagsep">|</span>
+                     <a class="tag" href="https://arxiv.org/abs/2004.09095" target="_blank">abstract</a><span class="tagsep">|</span>
+                     <a class="tag" href="cites/acl2020.bib" target="_blank">cite</a><span class="tagsep">|</span>
+                     <a class="tag" href="https://microsoft.github.io/linguisticdiversity/" target="_blank">website</a>
+                 </p>
+                 </div>
+                 <div class="py-2">
+                 <p class="paper my-2 pl-2">
+                     <span class="papertitle">Learnings from Technological Interventions in a Low Resource
+                         Language</span><br>
+                     Devansh Mehta*, <span class="thisauthor">Sebastin Santy*</span>, Ramaravind Mothilal, Brij Mohan
+                     Lal Srivastava, Alok
+                     Sharma, Anurag Shukla, Vishnu Prasad, Venkanna U, Amit Sharma and Kalika Bali
+                     <span class="noter"> (* = Equal Contribution)</span><br>
+                     <span class="conf"><a class="confshort" href="https://lrec2020.lrec-conf.org/">LREC'20</a> | International Conference on Language
+                         Resources and Evaluation</span><br>
+                    
+                     <a class="tag" href="https://arxiv.org/pdf/2004.10270.pdf" target="_blank">pdf</a><span class="tagsep">|</span>
+                     <a class="tag" href="https://arxiv.org/abs/2004.10270" target="_blank">abstract</a><span class="tagsep">|</span>
+                     <a class="tag" href="cites/lrec2020.bib" target="_blank">cite</a>
+                 </p>
+                 </div>
+                 <div class="py-2">
+                 <p class="paper my-2 pl-2">
+                     <span class="papertitle">Deploying Language Technologies for Underserved Communities</span><br>
+                     Kalika Bali, Monojit Choudhury, Sunayana Sitaram, <span class="thisauthor">Sebastin Santy</span><br>
+                     <span class="conf"><a class="confshort" href="https://en.unesco.org/LT4All">LT4All</a> | UNESCO International Conference on Language
+                         Technologies for All</span><br>
+                     <a class="tag" href="https://en.unesco.org/sites/default/files/lt4all_programme_day2and3.pdf"
+                         target="_blank">proceedings</a><span class="tagsep">|</span>
+                     <a class="tag" href="assets/unesco.pdf" target="_blank">poster</a>
+                 </p>   </div>
+                 <div class="py-2">
+                 <p class="paper my-2 pl-2">
+                     <span class="papertitle">Unsung Challenges of Building and Deploying Language Technologies for Low
+                         Resource Language Communities</span><br>
+                     Pratik Joshi, Christain Barnes, <span class="thisauthor">Sebastin Santy</span>, Simran Khanuja,
+                     Sanket Shah, Anirudh
+                     Srinivasan, Satwik Bhattamishra, Sunayana Sitaram, Monojit Choudhury and Kalika Bali<br>
+                     <span class="conf"><a class="confshort" href="https://ltrc.iiit.ac.in/icon2019/">ICON'19</a> | International Conference on Natural
+                         Language Processing</span><br>
+                     <a class="tag" href="https://arxiv.org/pdf/1912.03457.pdf" target="_blank">pdf</a><span class="tagsep">|</span>
+                     <a class="tag" href="https://arxiv.org/abs/1912.03457" target="_blank">abstract</a><span class="tagsep">|</span>
+                     <a class="tag" href="cites/icon2019.bib" target="_blank">cite</a>
+                 </p>
+                 </div>
+                 <div class="py-2">
+                 <p class="paper my-2 pl-2">
+                     <span class="papertitle">CoSSAT: Code-Switched Speech Annotation Tool</span><br>
+                     Sanket Shah, Pratik Joshi, <span class="thisauthor">Sebastin Santy</span>, Sunayana Sitaram<br>
+                     <span class="conf"><a class="confshort" href="https://www.emnlp-ijcnlp2019.org/">AnnoNLP@EMNLP'19</a> | Empirical
+                         Methods in Natural Language
+                             Processing</span><br>
+                     <a class="tag" href="https://www.aclweb.org/anthology/D19-5907.pdf" target="_blank">pdf</a><span class="tagsep">|</span>
+                     <a class="tag" href="https://www.aclweb.org/anthology/D19-5907/" target="_blank">abstract</a><span class="tagsep">|</span>
+                     <a class="tag" href="cites/cossat.bib" target="_blank">cite</a><span class="tagsep">|</span>
+                     <a class="tag" href="assets/cossat.pdf" target="_blank">slides</a>
+                 </p>
+                 </div>
+                 <div class="py-2">
+                 <p class="paper my-2 pl-2">
+                     <span class="papertitle">INMT: Interactive Neural Machine Translation</span><br>
+                     <span class="thisauthor">Sebastin Santy</span>, Sandipan Dandapat, Monojit Choudhury, Kalika Bali<br>
+                     <span class="conf"><a class="confshort" href="https://www.emnlp-ijcnlp2019.org/">EMNLP'19 Demo</a> |
+                         Empirical Methods in Natural Language Processing</span><br>
+                     <a class="tag" href="https://microsoft.github.io/inmt/" target="_blank">website</a><span class="tagsep">|</span>
+                     <a class="tag" href="https://github.com/microsoft/inmt" target="_blank">code</a><span class="tagsep">|</span>
+                     <a class="tag" href="https://www.aclweb.org/anthology/D19-3018.pdf" target="_blank">pdf</a><span class="tagsep">|</span>
+                     <a class="tag" href="https://www.aclweb.org/anthology/D19-3018/" target="_blank">abstract</a><span class="tagsep">|</span>
+                     <a class="tag" href="cites/inmt.bib" target="_blank">cite</a><span class="tagsep">|</span>
+                     <a class="tag" href="assets/inmt_poster.pdf" target="_blank">poster</a>
+                 </p>   </div>
+                 <div class="py-2">
+                 <p class="paper my-2 pl-2">
+                     <span class="papertitle">Towards Task Understanding in Visual Settings</span><br>
+                     <span class="thisauthor">Sebastin Santy</span>, Wazeer Zulfikar, Rishabh Mehrotra, Emine Yilmaz<br>
+                     <span class="conf"><a class="confshort" href="#">AAAI'19 Student Abstract</a> | AAAI Conference on Artificial Intelligence</span> <br>
+                     <a class="tag" href="https://usercontext.github.io/SceneTask/resources/images/manuscript.pdf"
+                         target="_blank">pdf</a><span class="tagsep">|</span>
+                     <a class="tag" href="https://usercontext.github.io/SceneTask/" target="_blank">abstract</a><span class="tagsep">|</span>
+                     <a class="tag" href="cites/aaai2019.bib" target="_blank">cite</a><span class="tagsep">|</span>
+                     <a class="tag" href="https://usercontext.github.io/SceneTask/resources/images/poster.pdf"
+                         target="_blank">poster</a>
+                 </p>   </div>
+                 <div class="py-2">
+                 <p class="paper my-2 pl-2">
+                     <span class="papertitle">DataDepsGenerators.jl: making reusing data easy by automatically
+                         generating DataDeps.jl registration
+                         code</span><br>
+                     Lyndon White, <span class="thisauthor">Sebastin Santy</span><br>
+                     <span class="conf"><a class="confshort" href="#">JOSS'18</a> | Journal of Open Source Software</span> <br>
+                     <a class="tag" href="https://arxiv.org/pdf/1912.03457.pdf" target="_blank">pdf</a><span class="tagsep">|</span>
+                     <a class="tag" href="cites/datadeps.bib" target="_blank">cite</a><span class="tagsep">|</span>
+                     <a class="tag" href="https://www.youtube.com/watch?v=eMtuzjn_Xks" target="_blank">talk</a><span class="tagsep">|</span>
+                     <a class="tag"
+                         href="https://medium.com/@sebastinsanty/google-summer-of-code-2018-julia-computing-report-8d3f553d7050"
+                         target="_blank">blog post</a>
+                 </p>   </div>
+                 <div class="py-2">
+                 <p class="paper my-2 pl-2">
+                     <span class="papertitle">BITS Darshini: A Modular, Concurrent Protocol Analyzer
+                         Workbench</span><br>
+                     Prasad Talasila, Mihir Kakrambe, <span class="thisauthor">Sebastin Santy</span>, Anurag Rai, Neena Goveas, Bharat M
+                     Deshpande<br>
+                     <span class="conf"><a class="confshort" href="#">ICDCN'18</a> | International Conference on Distributed Computing and Networking</span> <br>
+                     <a class="tag" href="assets/icdcn.pdf" target="_blank">pdf</a><span class="tagsep">|</span>
+                     <a class="tag" href="https://dl.acm.org/doi/10.1145/3154273.3154316" target="_blank">abstract</a><span class="tagsep">|</span>
+                     <a class="tag" href="cites/darshini.bib" target="_blank">cite</a>
+                 </p>
 
-    <div class="navbar" id="navbar">
-      <div class="hey">Hey!</div>
-      <div class="logo" tabindex="0" aria-label="vinod jangid logo">
-        <div class="logo-top">
-          <img src="src/png/nav-avatar.png" alt="animation-head" id="nav-avatar"/>
+                 <p class="header pt-5">Talks</p>
+                 <div class="py-2">
+                 <p class="paper my-2 pl-2">
+                     <span class="papertitle">Repeatable Data Setup for Repeatable Science</span><br>
+                     Talked about DataDepsGenerators.jl and Reproducible AI.<br>
+                     <span class="conf">PyData 2018, 11 Times Square, New York City, United States</span><br>
+                     <a class="tag" href="https://www.youtube.com/watch?v=eMtuzjn_Xks" target="_blank">video</a><span class="tagsep">|</span>
+                     <a class="tag" href="https://pydata.org/nyc2018/schedule/presentation/14/"
+                         target="_blank">abstract</a>
+                 </p>
+                 </div>
+                 <div class="py-2">
+                 <p class="paper my-2 pl-2">
+                     <span class="papertitle">Tête-à-tête with <a
+                             href="https://en.wikipedia.org/wiki/A._P._J._Abdul_Kalam" target="_blank">APJ Abdul
+                             Kalam</a></span><br>
+                     As part of the Iken Scientifica 2009 winning team, got an opportunity to discuss tech advancements
+                     with His Excellency, Dr. APJ Abdul Kalam, Former President of India.<br>
+                     <span class="conf">10 Rajaji Marg, New Delhi, India</span><br>
+                     <a class="tag" href="https://www.youtube.com/watch?v=oj-rT6CouZg" target="_blank">video</a>
+                 </p>
+                 </div>
+                 </div>
+
+
+                <div class="row text-center py-4">
+                    <div class="mx-auto mt-2">
+                        <img class="img-fluid instilogo p-1" src="images/bitspilani.png">
+                        <div class="institution">BITS Pilani</div>
+                        <div class="years">2015 - 2018</div>
+                    </div>
+                    <div class="mx-auto mt-2">
+                        <img class="img-fluid instilogo p-3" src="images/mozilla1.png">
+                        <div class="institution">Mozilla</div>
+                        <div class="years">S2017</div>
+                    </div>
+                    <div class="mx-auto mt-2">
+                        <img class="img-fluid instilogo p-2" src="images/julia1.png">
+                        <div class="institution">Julia Computing</div>
+                        <div class="years">S2018</div>
+                    </div>
+                    <div class="mx-auto mt-2">
+                        <img class="img-fluid instilogo p-3" src="images/ucl1.png">
+                        <div class="institution">University College London</div>
+                        <div class="years">S2018</div>
+                    </div>
+                    <div class="mx-auto mt-2">
+                        <img class="img-fluid instilogo p-1" src="images/CMU1.png">
+                        <div class="institution">Carnegie Mellon</div>
+                        <div class="years">F2018</div>
+                    </div>
+                    <div class="mx-auto mt-2">
+                        <img class="img-fluid instilogo p-2" src="images/microsoft_research_logo.jpg">
+                        <div class="institution">Microsoft Research</div>
+                        <div class="years">2019 - Present</div>
+                    </div>
+                </div>
+
+            </div>
+            
         </div>
-      </div>
-      <div class="navbar-tabs" id="navbar-tabs">
-        <ul class="navbar-tabs-ul">
-          <li class="home activeThistab" class="navbar-tabs-li" data-aos="fade-down" data-aos-delay="100">
-            <a href="#home" tabindex="0" aria-label="Home menu button">
-              &#60;/Home&#62;
-            </a>
-          </li>
-
-          <li class="about" class="navbar-tabs-li" data-aos="fade-down" data-aos-delay="300">
-            <a href="#about" aria-label="about menu button">
-              &#60;/AboutMe&#62;
-            </a>
-          </li>
-
-          <li class="skills" class="navbar-tabs-li" data-aos="fade-down" data-aos-delay="500">
-            <a href="#skills" aria-label="skills menu button">
-              &#60;/Skills&#62;
-            </a>
-          </li>
-
-          <li class="projects" class="navbar-tabs-li" data-aos="fade-down" data-aos-delay="700">
-            <a href="#projects" aria-label="projects menu button">
-              &#60;/Projects&#62;
-            </a>
-          </li>
-        </ul>
-      </div>
-      <!-- navbar tabs ends -->
     </div>
-  </header>
-  <!-- header ends here -->
 
-  <main>
-    <!-- hamburger -->
-    <div class="hamburger" id="hamburger" data-aos="fade">
-      <div class="hamburgerbase">
-        <button id="hamburger-button" onclick="hamburgerMenu()" tabindex="0" aria-label="Menu Button">
-          <span class="burger-bar" id="burger-bar1"></span>
-          <span class="burger-bar" id="burger-bar2"></span>
-          <span class="burger-bar" id="burger-bar3"></span>
-        </button>
-      </div>
-    </div>
-    <!-- hamburger -->
-    <div class="mobiletogglemenu" id="mobiletogglemenu">
-      <ul class="mobile-navbar-tabs-ul" id="mobile-ul">
-        <li id="home-mobile-tab" class="mobile-navbar-tabs-li home activeThismobiletab" onclick="hidemenubyli()">
-          <a href="#home" tabindex="0" aria-label="Home menu button">
-            &#60;/Home&#62;
-          </a>
-        </li>
-
-        <li id="aboutme-mobile-tab" class="mobile-navbar-tabs-li about" onclick="hidemenubyli()">
-          <a href="#about" tabindex="0" aria-label="about menu button">
-            &#60;/AboutMe&#62;
-          </a>
-        </li>
-        <li id="skills-mobile-tab" class="mobile-navbar-tabs-li skills" onclick="hidemenubyli()">
-          <a href="#skills" tabindex="0" aria-label="skills menu button">
-            &#60;/Skills&#62;
-          </a>
-        </li>
-        <li id="projects-mobile-tab" class="mobile-navbar-tabs-li projects" onclick="hidemenubyli()">
-          <a href="#projects" tabindex="0" aria-label="projects menu button">
-            &#60;/Projects&#62;
-          </a>
-        </li>
-      </ul>
-    </div>
-    <!-- mobile toggle menu ends -->
-
-    <section class="landing-page-container" id="home">
-      <div class="blob"></div>
-
-      <div class="text-content">
-        <article id="hello-friend" data-aos="fade-up" data-aos-delay="0">
-          <p class="jello">N</p>
-          <p class="jello">a</p>
-          <p class="jello">m</p>
-          <p class="jello">a</p>
-          <p class="jello">s</p>
-          <p class="jello">t</p>
-          <p class="jello">e</p>
-          <p class="jello">(</p>
-          <p class="jello">)</p>
-          <p class="jello">;</p>
-          &nbsp;
-          <p class="jello">I</p>
-          <p class="jello">'</p>
-          <p class="jello">m</p>
-        </article>
-        <article id="name" data-aos="fade-up" data-aos-delay="200">
-          <p class="jello">V</p>
-          <p class="jello">i</p>
-          <p class="jello">n</p>
-          <p class="jello">o</p>
-          <p class="jello">d</p>
-          &nbsp;
-          <p class="jello">J</p>
-          <p class="jello">a</p>
-          <p class="jello">n</p>
-          <p class="jello">g</p>
-          <p class="jello">i</p>
-          <p class="jello">d</p>
-          <p class="jello">.</p>
-        </article>
-
-        <article id="work" data-aos="fade-up" data-aos-delay="400">
-          <div>
-            <p class="jello">I</p>
-          </div>
-          <div>
-            <p class="jello">d</p>
-            <p class="jello">e</p>
-            <p class="jello">s</p>
-            <p class="jello">i</p>
-            <p class="jello">g</p>
-            <p class="jello">n</p>
-          </div>
-          <div>
-            <p class="jello">&</p>
-          </div>
-          <div>
-            <p class="jello">c</p>
-            <p class="jello">o</p>
-            <p class="jello">d</p>
-            <p class="jello">e</p>
-          </div>
-          <div>
-            <p class="jello">f</p>
-            <p class="jello">o</p>
-            <p class="jello">r</p>
-          </div>
-          <div>
-            <p class="jello">w</p>
-            <p class="jello">e</p>
-            <p class="jello">b</p>
-            <p class="jello">.</p>
-          </div>
-        </article>
-        <p id="info-para" data-aos="fade-up" data-aos-delay="600">
-          Web Developer with experience of Digital Concept Arts, Frontend Web
-          Designs. I Love fun Web UI, collaboration and making products.<br />
-          <br />
-          I value simple content structure, clean design patterns, and
-          thoughtful interactions.
-        </p>
-        <div class="contact-btn-div" data-aos="fade-up" data-aos-delay="800">
-          <a href="mailto:infovinodjangid@gmail.com" tabindex="-1">
-            <button class="letsTalkBtn">
-              <p class="letsTalkBtn-text">Let's Talk!</p>
-              <span class="letsTalkBtn-BG"></span>
-            </button></a>
-          <div class="setting-container" id="setting-container">
-            <input type="checkbox" id="switchforsetting" onclick="settingtoggle()" />
-
-            <label for="switchforsetting" class="needtobeinvert" id="labelforsetting" tabindex="0"
-              aria-label="settings for sound and appearance"></label>
-
-            <div class="visualmodetogglebuttoncontainer" id="visualmodetogglebuttoncontainer">
-              <input type="checkbox" id="switchforvisualmode" onclick="visualmode()" />
-              <label for="switchforvisualmode" id="labelforvisualmode" tabindex="0"
-                aria-label="switch appearance"></label>
-            </div>
-
-            <div class="soundtogglebuttoncontainer" id="soundtogglebuttoncontainer">
-              <input type="checkbox" id="switchforsound" onclick="playpause()" />
-              <label for="switchforsound" id="labelforsound" tabindex="0" aria-label="switch sound"
-                class="needtobeinvert"></label>
-            </div>
-          </div>
-          <!-- setting div ends -->
-        </div>
-        <!-- contact-btn-div -->
-      </div>
-     
-    </section>
-    <!-- landing page ends here -->
-    <section class="about-section-container" id="about" data-aos="fade-up">
-      <div class="about-section">
-        <div class="section-heading">
-          <h2 class="section-heading-article" tabindex="0" aria-label="About me heading">
-            &#60;/AboutMe&#62;
-          </h2>
-          <p class="sectionHeadingP"></p>
-        </div>
-
-        <div class="info-dp-section">
-          <div class="about-info">
-            <p tabindex="0">
-              Hi! My name is Vinod. I'm a web developer and digital visual artist. I love creating things that exist on the internet. My interest in web development started in 2021 when I decided to upload my digital concept arts online.
-            </p>
-            <br />
-            <p tabindex="0">
-              Instead of creating an online Concepts Art website, i started
-              enjoying web development. Creating custom things for web taught
-              me a lot about design & development!
-            </p>
-            <br />
-            <p tabindex="0">
-              My main focus these days is building interesting & creative web
-              designs, I like to code things from scratch, and enjoy bringing
-              ideas to life in the browser.
-            </p>
-             <!-- Resume button -->
-      <button class="resume-btn" id="resume-btn" onclick="openURL()">
-        <div class="sign">
-          <svg viewBox="0 0 640 512">
-            <path
-              d="M144 480C64.5 480 0 415.5 0 336c0-62.8 40.2-116.2 96.2-135.9c-.1-2.7-.2-5.4-.2-8.1c0-88.4 71.6-160 160-160c59.3 0 111 32.2 138.7 80.2C409.9 102 428.3 96 448 96c53 0 96 43 96 96c0 12.2-2.3 23.8-6.4 34.6C596 238.4 640 290.1 640 352c0 70.7-57.3 128-128 128H144zm79-167l80 80c9.4 9.4 24.6 9.4 33.9 0l80-80c9.4-9.4 9.4-24.6 0-33.9s-24.6-9.4-33.9 0l-39 39V184c0-13.3-10.7-24-24-24s-24 10.7-24 24V318.1l-39-39c-9.4-9.4-24.6-9.4-33.9 0s-9.4 24.6 0 33.9z" />
-          </svg>
-        </div>
-
-        <div class="text">Resume</div>
-      </button>
-          </div>
-
-          <div class="dp" data-aos="fade-up">
-            <img src="src/webp/vinod (2).webp" alt="Vinod Jangid" tabindex="0" aria-label="image of vinod" />
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- about section ends  -->
-
-    <section class="skills-section-container" id="skills">
-      <div class="skills-section">
-        <div class="section-heading" data-aos="fade-up">
-          <h2 class="section-heading-article" tabindex="0" aria-label="skills heading">
-            &#60;/Skills&#62;
-          </h2>
-          <p class="sectionHeadingP"></p>
-        </div>
-
-        <div class="frontend-dev-section">
-          <h3 class="frontend-dev-heading" data-aos="fade-up" tabindex="0"
-            aria-label="As a frontend a developer these are the skills i have">
-            Tech Stack
-          </h3>
-          <ul class="tech-stack-wrapper">
-            <li class="tech-stack-box" data-aos="fade-up">
-              <img src="./src/png/htmllogo.png" alt="Html skill" class="tech-stack-logo" />
-              <span class="tooltip">HTML</span>
-            </li>
-
-            <li class="tech-stack-box" data-aos="fade-up">
-              <img src="./src/png/csslogo.png" alt="css skill" class="tech-stack-logo" />
-              <span class="tooltip">CSS</span>
-            </li>
-
-            <li class="tech-stack-box" data-aos="fade-up">
-              <img src="./src/png/jslogo.png" alt="js skill" class="tech-stack-logo" />
-              <span class="tooltip">JS</span>
-            </li>
-
-            <li class="tech-stack-box" data-aos="fade-up">
-              <img src="./src/png/bootstraplogo.png" alt="bootstrap skill" class="tech-stack-logo" />
-              <span class="tooltip">BOOTSTRAP</span>
-            </li>
-
-            <li class="tech-stack-box" data-aos="fade-up">
-              <img src="./src/png/reactlogo.png" alt="react skill" class="tech-stack-logo" />
-              <span class="tooltip">REACTJS</span>
-            </li>
-
-            <li class="tech-stack-box" data-aos="fade-up">
-              <img src="./src/png/nextlogo.png" alt="nextjs skill" class="tech-stack-logo" />
-              <span class="tooltip">NEXTJS</span>
-            </li>
-
-            <li class="tech-stack-box" data-aos="fade-up">
-              <img src="./src/png/node.png" alt="nodejs skill" class="tech-stack-logo" />
-              <span class="tooltip">NODEJS</span>
-            </li>
-
-            <li class="tech-stack-box" data-aos="fade-up">
-              <img src="./src/png/astro.png" alt="astro skill" class="tech-stack-logo" />
-              <span class="tooltip">ASTRO</span>
-            </li>
-
-            <li class="tech-stack-box" data-aos="fade-up">
-              <img src="./src/png/githublogo.png" alt="github skill" class="tech-stack-logo needtobeinvert" />
-              <span class="tooltip">GITHUB</span>
-            </li>
-
-            <li class="tech-stack-box" data-aos="fade-up">
-              <img src="./src/png/gitlogo.png" alt="git skill" class="tech-stack-logo" />
-              <span class="tooltip">GIT</span>
-            </li>
-
-            <li class="tech-stack-box" data-aos="fade-up">
-              <img src="./src/png/tinacms.png" alt="tinacms skill" class="tech-stack-logo" />
-              <span class="tooltip">TINACMS</span>
-            </li>
-
-            <li class="tech-stack-box" data-aos="fade-up">
-              <img src="./src/png/contentfulcms.png" alt="contentful skill" class="tech-stack-logo" />
-              <span class="tooltip">CONTENTFUL</span>
-            </li>
-
-
-            <li class="tech-stack-box" data-aos="fade-up">
-              <img src="./src/png/clogo.png" alt="c language skill" class="tech-stack-logo" />
-              <span class="tooltip">C</span>
-            </li>
-
-            <li class="tech-stack-box" data-aos="fade-up">
-              <img src="./src/png/cpplogo.png" alt="c++ language skill" class="tech-stack-logo" />
-              <span class="tooltip">C++</span>
-            </li>
-
-            <li class="tech-stack-box" data-aos="fade-up">
-              <img src="./src/png/pslogo.png" alt="photoshop skill" class="tech-stack-logo" />
-              <span class="tooltip">ADOBE PS</span>
-            </li>
-
-            <li class="tech-stack-box" data-aos="fade-up">
-              <img src="./src/png/figmalogo.png" alt="figma skill" class="tech-stack-logo" />
-              <span class="tooltip">FIGMA</span>
-            </li>
-
-            <li class="tech-stack-box" data-aos="fade-up">
-              <img src="./src/png/ailogo.png" alt="adobe illustrator skill" class="tech-stack-logo" />
-              <span class="tooltip">ADOBE AI</span>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </section>
-    <!-- skills section ends -->
-    <section class="projects-section-container" id="projects">
-      <div class="projects-section-div">
-        <div class="section-heading" data-aos="fade-up">
-          <h2 class="section-heading-article" tabindex="0" aria-label="My projects starts from here">
-            &#60;/Projects&#62;
-          </h2>
-          <p class="sectionHeadingP"></p>
-        </div>
-        <div class="project-boxes-div">
-          <div data-aos="fade-up" class="project-box-wrapper">
-            <div class="project-box project-box2" id="project-box2">
-              <div class="info-div">
-                <img src="src/webp/pexelicon-favicon.webp" alt="pexelicon website favicon" class="faviconforProject" />
-                <article class="ProjectHeading">Pexelicons</article>
-                <p class="ProjectDescription">
-                  Pexelicons: A world of personalized file folder icons to
-                  transform your PC into a reflection of your style.
-                </p>
-                <div class="project-buttons">
-                  <a href="https://github.com/vinodjangid07/Pexelicons" target="_blank" class="github-redirect"
-                    aria-label="Visit Pexelicons on GitHub">
-                    <img src="src/svg/github.svg" alt="github redirect button" />
-                  </a>
-                  <a href="https://vinodjangid07.github.io/Pexelicons/" target="_blank" class="cta"
-                    aria-label="Visit Pexelicons Live">
-                    <span>Live view</span>
-                    <svg viewBox="0 0 13 10" height="10px" width="15px">
-                      <path d="M1,5 L11,5"></path>
-                      <polyline points="8 1 12 5 8 9"></polyline>
-                    </svg>
-                  </a>
-                </div>
-              </div>
-              <div class="image-div">
-                <img src="src/webp/Group 76.webp" alt="Pexelicon website preview image" />
-              </div>
-            </div>
-          </div>
-
-          <div class="project-box-wrapper" data-aos="fade-up">
-            <div class="project-box project-box5" id="project-box5">
-              <div class="info-div">
-                <img src="src/webp/cropped-1086600-192x192.webp" alt="comickaze website favicon"
-                  class="faviconforProject" />
-                <article class="ProjectHeading">ComicKaze</article>
-                <p class="ProjectDescription">
-                  ComicKaze is an ecommerce website built on wordpress by me
-                  as a freelancer. It specializes in selling anime
-                  merchandise.
-                </p>
-                <div class="project-buttons">
-                  <a href="https://comickaze.in" target="_blank" class="cta" aria-label="Visit Comickaze live">
-                    <span>Live view</span>
-                    <svg viewBox="0 0 13 10" height="10px" width="15px">
-                      <path d="M1,5 L11,5"></path>
-                      <polyline points="8 1 12 5 8 9"></polyline>
-                    </svg>
-                  </a>
-                </div>
-              </div>
-              <div class="image-div">
-                <img src="src/webp/comickaze-preview.webp" alt="comickaze website preview image" />
-              </div>
-            </div>
-          </div>
-
-          <!-- ---------------------- -->
-          <div class="project-box-wrapper" data-aos="fade-up">
-            <div class="project-box project-box2" id="project-box2">
-              <div class="info-div">
-                <img src="src/svg/aquaregia-favicon.svg" alt="Aquaregia website favicon"
-                  class="faviconforProjectAquaregia" />
-                <article class="ProjectHeading">Aquaregia</article>
-                <p class="ProjectDescription">
-                  A website for University Maharaja College fest "Aquaregia"
-                  for event registrations.
-                </p>
-                <div class="project-buttons">
-                  <a href="https://github.com/vinodjangid07/Aquaregia" target="_blank" class="github-redirect"
-                    aria-label="Visit Aquaregia on GitHub">
-                    <img src="src/svg/github.svg" alt="github redirect button" />
-                  </a>
-                  <a href="https://vinodjangid07.github.io/Aquaregia/" target="_blank" class="cta"
-                    aria-label="Visit Aquaregia Live">
-                    <span>Live view</span>
-                    <svg viewBox="0 0 13 10" height="10px" width="15px">
-                      <path d="M1,5 L11,5"></path>
-                      <polyline points="8 1 12 5 8 9"></polyline>
-                    </svg>
-                  </a>
-                </div>
-              </div>
-              <div class="image-div">
-                <img src="src/webp/Aquaregia-project.webp" alt="Aquaregia website preview image" />
-              </div>
-            </div>
-          </div>
-          <!-- ---------------------- -->
-          <div class="project-box-wrapper" data-aos="fade-up">
-            <div class="project-box project-box4" id="project-box4">
-              <div class="info-div">
-                <img src="src/webp/qr-favicon.webp" alt="Qr generator website favicon" class="faviconforProject" />
-                <article class="ProjectHeading">QR Generator</article>
-                <p class="ProjectDescription">
-                  A webpage to make a QR Code from text using API.
-                </p>
-                <div class="project-buttons">
-                  <a href="https://github.com/vinodjangid07/QR-Generator" target="_blank" class="github-redirect"
-                    aria-label="Visit qr generator on github">
-                    <img src="src/svg/github.svg" alt="github redirect button" />
-                  </a>
-                  <a href="https://vinodjangid07.github.io/QR-Generator/" target="_blank" class="cta"
-                    aria-label="Visit qr generator live">
-                    <span>Live view</span>
-                    <svg viewBox="0 0 13 10" height="10px" width="15px">
-                      <path d="M1,5 L11,5"></path>
-                      <polyline points="8 1 12 5 8 9"></polyline>
-                    </svg>
-                  </a>
-                </div>
-              </div>
-              <div class="image-div">
-                <img src="src/webp/QRgeneratorProject.webp" alt="qr generator website preview image" />
-              </div>
-            </div>
-          </div>
-
-          <!-- ---------------------- -->
-          <div class="project-box-wrapper" data-aos="fade-up">
-            <div class="project-box project-box3" id="project-box3">
-              <div class="info-div">
-                <img src="src/ico/netflixfavicon.ico" alt="netflix website favicon" class="faviconforProject" />
-                <article class="ProjectHeading">React Netflix Clone</article>
-                <p class="ProjectDescription">
-                  A webpage to categorize the shows to redirect user to watch
-                  the show.
-                </p>
-                <div class="project-buttons">
-                  <a href="https://github.com/vinodjangid07/Netflix-clone" target="_blank" class="github-redirect"
-                    aria-label="Visit Netflix clone on GitHub">
-                    <img src="src/svg/github.svg" alt="github redirect button" />
-                  </a>
-                  <a href="https://react-project-20.netlify.app/" target="_blank" class="cta"
-                    aria-label="Visit netflix clone live">
-                    <span>Live view</span>
-                    <svg viewBox="0 0 13 10" height="10px" width="15px">
-                      <path d="M1,5 L11,5"></path>
-                      <polyline points="8 1 12 5 8 9"></polyline>
-                    </svg>
-                  </a>
-                </div>
-              </div>
-              <div class="image-div">
-                <img src="src/webp/NetflixCloneProject.webp" alt="netflix clone website preview image" />
-              </div>
-            </div>
-          </div>
-
-          <!-- ---------------------- -->
-
-          <div class="project-box-wrapper" data-aos="fade-up">
-            <div class="project-box project-box1" id="project-box1">
-              <div class="info-div">
-                <img src="src/webp/axocean-favicon.webp" alt="Axocean website favicon" class="faviconforProject" />
-                <article class="ProjectHeading">AXOCEAN</article>
-                <p class="ProjectDescription">
-                  E-commerce website frontend work to choose people their
-                  favorite design of product and redirect to flipkart shopping
-                  site.
-                </p>
-                <div class="project-buttons">
-                  <a href="https://github.com/vinodjangid07/AXOCEAN" target="_blank" class="github-redirect"
-                    aria-label="Visit axocean on GitHub">
-                    <img src="src/svg/github.svg" alt="github redirect button" />
-                  </a>
-                  <a href="https://vinodjangid07.github.io/AXOCEAN/" target="_blank" class="cta"
-                    aria-label="Visit axocean live">
-                    <span>Live view</span>
-                    <svg viewBox="0 0 13 10" height="10px" width="15px">
-                      <path d="M1,5 L11,5"></path>
-                      <polyline points="8 1 12 5 8 9"></polyline>
-                    </svg>
-                  </a>
-                </div>
-              </div>
-              <div class="image-div">
-                <img src="src/webp/AXOCEAN-project.webp" alt="Axocean website preview image" />
-              </div>
-            </div>
-          </div>
-          <!-- ---------------------- -->
-        </div>
-      </div>
-    </section>
-  </main>
-  <!-- main ends here -->
-
-  <footer id="footer">
-    <button class="fas" id="backtotopbutton" onclick="scrolltoTopfunction()">
-      <article aria-label="Back to top">&#8592;BACK TO TOP</article>
-    </button>
-    <div class="footer-background">
-      <div class="footer-blob"></div>
-    </div>
-    <div class="footer-foreground">
-      <div class="footercontainer">
-        <div class="two-words">
-          <article tabindex="0" aria-label="Learning, Living, and Leveling Up, my quote">
-            "Learning, Living, and Leveling Up."
-          </article>
-        </div>
-        <div class="social-media-container">
-          <div class="getintouch-heading">
-            <article>GetinTouch();</article>
-          </div>
-          <div class="logos">
-            <a href="https://www.instagram.com/pexel_ui/" target="_blank" tabindex="0"
-              aria-label="My instagram"><svg viewBox="0 0 448 512" class="SocialHandle">
-                <path
-                  d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z" />
-              </svg></a>
-
-            <a href="https://www.linkedin.com/in/vinod-jangid-b401111a1?original_referer=" target="_blank"
-              aria-label="My Linkdin"><svg class="SocialHandle" viewBox="0 0 448 512">
-                <path
-                  d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z" />
-              </svg></a>
-
-            <a href="https://github.com/vinodjangid07" target="_blank" aria-label="My github"><svg viewBox="0 0 496 512"
-                class="SocialHandle">
-                <path
-                  d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z" />
-              </svg></a>
-
-            <a href="mailto:infovinodjangid@gmail.com" target="_blank" aria-label="My G mail"><svg id="GmailLogo"
-                viewBox="0 0 512 512">
-                <path
-                  d="M64 112c-8.8 0-16 7.2-16 16v22.1L220.5 291.7c20.7 17 50.4 17 71.1 0L464 150.1V128c0-8.8-7.2-16-16-16H64zM48 212.2V384c0 8.8 7.2 16 16 16H448c8.8 0 16-7.2 16-16V212.2L322 328.8c-38.4 31.5-93.7 31.5-132 0L48 212.2zM0 128C0 92.7 28.7 64 64 64H448c35.3 0 64 28.7 64 64V384c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V128z" />
-              </svg></a>
-          </div>
-        </div>
-        <div class="footer-avatar-container">
-          <img src="src/png/footer-avatar-vinod.png" alt="animation-head" class="footer-avatar-img" id="footer-wala-avatar"/>
-          <div class="footer-avatar-face">
-            <div class="footer-avatar-eye footer-left-eye">
-              <div class="footer-pupil"></div>
-            </div>
-            <div class="footer-avatar-eye footer-right-eye">
-              <div class="footer-pupil"></div>
-            </div>
-          </div>
-        </div>
-        <div class="footer-bottom">
-          <article>
-            Design & Built by Vinod Jangid
-            &#169; twentytwentythree
-          </article>
-        </div>
-      </div>
-    </div>
-  </footer>
-  <!-- footer ends here -->
-
-  <script src="main.js"></script>
-
-  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-  <script>
-    AOS.init();
-  </script>
-
-  <script>
-    function openURL() {
-      var url = "src/pdf/Vinod's Resume.pdf";
-
-      window.open(url, "_blank");
-    }
-  </script>
-
-  <script>
-    const cursorInner = document.getElementById("cursor-inner");
-    const cursorOuter = document.getElementById("cursor-outer");
-    const links = document.querySelectorAll("a,label,button");
-
-    document.addEventListener("mousemove", function (e) {
-      const posX = e.clientX;
-      const posY = e.clientY;
-
-      cursorInner.style.left = `${posX}px`;
-      cursorInner.style.top = `${posY}px`;
-
-      // cursorOuter.style.left = `${posX}px`;
-      // cursorOuter.style.top = `${posY}px`;
-
-      cursorOuter.animate(
-        {
-          left: `${posX}px`,
-          top: `${posY}px`,
-        },
-        { duration: 500, fill: "forwards" }
-      );
-
-      links.forEach((link) => {
-        link.addEventListener("mouseenter", () => {
-          cursorInner.classList.add("hover");
-          cursorOuter.classList.add("hover");
-        });
-        link.addEventListener("mouseleave", () => {
-          cursorInner.classList.remove("hover");
-          cursorOuter.classList.remove("hover");
-        });
-      });
-    });
-  </script>
- <script src='https://storage.ko-fi.com/cdn/scripts/overlay-widget.js'></script>
-<script>
-  kofiWidgetOverlay.draw('vinodjangid07', {
-    'type': 'floating-chat',
-    'floating-chat.donateButton.text': 'Support me',
-    'floating-chat.donateButton.background-color': '#794bc4',
-    'floating-chat.donateButton.text-color': '#fff'
-  });
-</script>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script src="assets/style-3.js"></script>
 </body>
-
+  <style>
+  </style>
 </html>
